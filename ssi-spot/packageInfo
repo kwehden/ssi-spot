@@ -1,0 +1,2 @@
+base = {workspace = kwehden_ssi-spot; };
+packages = { };
