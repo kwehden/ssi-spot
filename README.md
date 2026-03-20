@@ -30,6 +30,7 @@
     <p>This is a fork of <a href="https://github.com/cagataycali/strands-spot">strands-spot</a> by <a href="https://github.com/cagataycali">Cagatay Cali</a>.</p>
     <p>Original authors and contributors are credited in the upstream repository.</p>
     <p>This fork includes additional features, extended documentation, and System2 orchestration support.</p>
+    <p><em>SSI stands for <strong>Sustainability Science and Innovation</strong>, though the double entendre with "Strands Spot Interface" is intentional!</em></p>
   </blockquote>
 </div>
 
