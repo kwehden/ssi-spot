@@ -1,0 +1,86 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Leaf background -->
+  <defs>
+    <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E7D32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#66BB6A;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Leaf shape -->
+  <path d="M 100 20 Q 140 40 150 80 Q 155 110 145 140 Q 135 165 100 180 Q 65 165 55 140 Q 45 110 50 80 Q 60 40 100 20 Z"
+        fill="url(#leafGradient)"
+        filter="url(#shadow)"
+        opacity="0.9"/>
+
+  <!-- Leaf vein -->
+  <path d="M 100 20 L 100 180"
+        stroke="#1B5E20"
+        stroke-width="2"
+        fill="none"
+        opacity="0.4"/>
+
+  <!-- Side veins -->
+  <path d="M 100 50 Q 120 60 130 80"
+        stroke="#1B5E20"
+        stroke-width="1.5"
+        fill="none"
+        opacity="0.3"/>
+  <path d="M 100 50 Q 80 60 70 80"
+        stroke="#1B5E20"
+        stroke-width="1.5"
+        fill="none"
+        opacity="0.3"/>
+  <path d="M 100 90 Q 120 100 125 120"
+        stroke="#1B5E20"
+        stroke-width="1.5"
+        fill="none"
+        opacity="0.3"/>
+  <path d="M 100 90 Q 80 100 75 120"
+        stroke="#1B5E20"
+        stroke-width="1.5"
+        fill="none"
+        opacity="0.3"/>
+
+  <!-- Strands logo element (stylized strands/threads) -->
+  <g transform="translate(100, 100)">
+    <!-- Three strands interweaving -->
+    <path d="M -25 -20 Q -20 0 -25 20"
+          stroke="#FFFFFF"
+          stroke-width="3"
+          fill="none"
+          stroke-linecap="round"/>
+    <path d="M 0 -25 Q 0 0 0 25"
+          stroke="#FFFFFF"
+          stroke-width="3"
+          fill="none"
+          stroke-linecap="round"/>
+    <path d="M 25 -20 Q 20 0 25 20"
+          stroke="#FFFFFF"
+          stroke-width="3"
+          fill="none"
+          stroke-linecap="round"/>
+
+    <!-- Connection points -->
+    <circle cx="-25" cy="-20" r="3" fill="#FFFFFF"/>
+    <circle cx="0" cy="-25" r="3" fill="#FFFFFF"/>
+    <circle cx="25" cy="-20" r="3" fill="#FFFFFF"/>
+    <circle cx="-25" cy="20" r="3" fill="#FFFFFF"/>
+    <circle cx="0" cy="25" r="3" fill="#FFFFFF"/>
+    <circle cx="25" cy="20" r="3" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Spot robot silhouette hint (simplified) -->
+  <g transform="translate(100, 135)" opacity="0.6">
+    <!-- Robot body -->
+    <ellipse cx="0" cy="0" rx="15" ry="8" fill="#FFFFFF"/>
+    <!-- Legs -->
+    <line x1="-10" y1="8" x2="-12" y2="15" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-3" y1="8" x2="-5" y2="15" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <line x1="3" y1="8" x2="5" y2="15" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <line x1="10" y1="8" x2="12" y2="15" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

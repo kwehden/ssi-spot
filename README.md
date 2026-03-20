@@ -1,7 +1,7 @@
 <div align="center">
   <div>
     <a href="https://strandsagents.com">
-      <img src="https://strandsagents.com/latest/assets/logo-github.svg" alt="Strands Agents" width="55px" height="105px">
+      <img src="./assets/logo.svg" alt="Strands Spot" width="200px" height="200px">
     </a>
   </div>
 
@@ -14,16 +14,23 @@
   </h2>
 
   <div align="center">
-    <a href="https://github.com/cagataycali/strands-spot"><img alt="GitHub stars" src="https://img.shields.io/github/stars/cagataycali/strands-spot"/></a>
-    <a href="https://github.com/cagataycali/strands-spot/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/cagataycali/strands-spot"/></a>
+    <a href="https://github.com/kwehden/ssi-spot"><img alt="GitHub stars" src="https://img.shields.io/github/stars/kwehden/ssi-spot"/></a>
+    <a href="https://github.com/kwehden/ssi-spot/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/kwehden/ssi-spot"/></a>
     <a href="https://dev.bostondynamics.com"><img alt="Spot SDK" src="https://img.shields.io/badge/Spot_SDK-5.0+-yellow"/></a>
   </div>
-  
+
   <p>
     <a href="https://strandsagents.com/">Strands Docs</a>
     ◆ <a href="https://dev.bostondynamics.com">Spot SDK Docs</a>
     ◆ <a href="https://github.com/boston-dynamics/spot-sdk">Spot SDK GitHub</a>
   </p>
+
+  <blockquote>
+    <p><strong>🌿 Fork Information</strong></p>
+    <p>This is a fork of <a href="https://github.com/cagataycali/strands-spot">strands-spot</a> by <a href="https://github.com/cagataycali">Cagatay Cali</a>.</p>
+    <p>Original authors and contributors are credited in the upstream repository.</p>
+    <p>This fork includes additional features, extended documentation, and System2 orchestration support.</p>
+  </blockquote>
 </div>
 
 A Python tool for controlling Boston Dynamics Spot robots through the [Strands Agents](https://github.com/strands-agents/sdk-python) framework.
@@ -466,7 +473,8 @@ Apache-2.0
 ---
 
 <div align="center">
-  <a href="https://github.com/cagataycali/strands-spot">GitHub</a>
+  <a href="https://github.com/kwehden/ssi-spot">GitHub</a>
   ◆ <a href="https://dev.bostondynamics.com">Spot SDK Docs</a>
   ◆ <a href="https://strandsagents.com/">Strands Docs</a>
+  ◆ <a href="https://github.com/cagataycali/strands-spot">Original Fork</a>
 </div>
